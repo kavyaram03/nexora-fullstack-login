@@ -44,7 +44,7 @@ function Login({ onLogin }) {
 
         try {
             const response = await axios.post(
-                "http://localhost:5000/api/login",
+                "https://nexora-backend-ca1h.onrender.com/api/login",
                 {
                     email: email.trim(),
                     password: password,
